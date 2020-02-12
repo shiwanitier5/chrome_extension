@@ -1,0 +1,21 @@
+.highlight {
+    background: yellow;
+    font-weight: bold;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.parents p {
+    text-align: center;
+    color: blue
+}
+
+.Email_id {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}

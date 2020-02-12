@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "highlight_text",
+    "version": "1.0",
+    "description": " chrome extension",
+
+
+
+
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["./js/jquery-3.4.1.min.js", "./js/content.js"],
+        "css": ["./css/content1.css"]
+
+    }],
+
+    "permissions": [
+        "storage",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+
+    "browser_action": {
+        "default_icon": "./images/ic.png",
+        "default_popup": "./loginauth/login.html"
+
+    }
+
+}
